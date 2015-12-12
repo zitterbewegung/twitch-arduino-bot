@@ -4,6 +4,7 @@
   "dependencies": {
     "galileo-io": "^0.8.14",
     "johnny-five": "^0.8.76",
-    "twitch-irc": "latest"
+    "twitch-irc": "latest",
+    "aws-iot-device-sdk": "1.0.6"
   }
 }
