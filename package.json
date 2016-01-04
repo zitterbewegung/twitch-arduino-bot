@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "galileo-io": "^0.8.14",
-    "johnny-five": "^0.8.76",
+    "johnny-five": "^0.9.17",
     "twitch-irc": "latest"
   }
 }
