@@ -34,14 +34,14 @@ board.on("ready", function() {
     client.addListener('chat', function (channel, user, message) {
 	console.log(user.username + ': ' + message);
 	if (message.toLowerCase() === '!turn-led-on') {
-	    client.say(channel, 'Hello, ' + user.username + '!');
+	    client.say(channel, 'Hello, ' + user.username + '!' + ' I have turned the led off.');
 	        led.on();
 	}
     });
    client.addListener('chat', function (channel, user, message) {
 	console.log(user.username + ': ' + message);
 	if (message.toLowerCase() === '!turn-led-off') {
-	    client.say(channel, 'Hello, ' + user.username + 'led is off'+ '!');
+	    client.say(channel, 'Hello, ' + user.username +  '!' + ' I have turned led off!');
 	        led.off();
 	}
    });
